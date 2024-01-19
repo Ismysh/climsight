@@ -12,7 +12,7 @@ You should have [Docker](https://docs.docker.com/engine/install/) installed. The
 
 ```bash
 docker pull koldunovn/climsight:stable
-docker run -p 8501:8501 -e OPENAI_API_KEY=$OPENAI_API_KEY climsight
+docker run -p 8501:8501 -e OPENAI_API_KEY=$OPENAI_API_KEY koldunovn/climsight:stable
 ```
 
 Then open `http://localhost:8501/` in your browser.
